@@ -13,5 +13,5 @@ namespace BL.Models
         public  string messsage { get; set; }
         public List<object> errors { get; set; }
         public object data { get; set; }
-    }
+    } 
 }
