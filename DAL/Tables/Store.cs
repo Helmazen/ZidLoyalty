@@ -10,7 +10,7 @@ namespace DAL.Tables
    public class Store : Entity
     {
         public string Name { get; set; }
-
+         
         public List<ConsumePointsIn> ConsumePointsIns { get; set; }
     }
 }
